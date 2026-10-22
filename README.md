@@ -18,6 +18,17 @@ The notebook explores supermarket transactions using pandas and visualizations. 
 
 **Reproducibility:** the notebook reads `supermarket_sales.csv`, which is not present in this repository. Add a licensed/anonymized dataset or document how to obtain it before expecting a fresh checkout to run.
 
+## Local setup
+
+```bash
+python -m venv .venv
+# Activate the virtual environment for your operating system, then:
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+The CSV/XLSX inputs noted below are not included, so supply a permitted dataset and update the notebook input path before running all cells.
+
 ## Tools visible in the notebooks
 - Python and Jupyter Notebook
 - pandas and NumPy
